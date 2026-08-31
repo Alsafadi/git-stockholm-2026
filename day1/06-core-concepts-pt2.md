@@ -340,9 +340,11 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-#### 4. Add to GitHub:
+#### 4. Add to your hosting platform:
 
-**Settings → SSH and GPG keys → New SSH key**
+- **GitHub:** Settings → SSH and GPG keys → New SSH key
+- **GitLab:** Preferences → SSH Keys → Add new key
+- **Bitbucket:** Personal Bitbucket settings → Security → SSH keys → Add key
 
 ---
 
@@ -369,6 +371,8 @@ feature branch:         E --- F ---
 Original Repo  ←  Pull Request  ←  Forked Repo
      main -----------------------   feature
 ```
+
+_Same idea on GitHub, GitLab, and Bitbucket - GitLab just calls it a **merge request** instead of a pull request_
 
 ---
 

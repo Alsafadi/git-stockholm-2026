@@ -355,7 +355,6 @@ Let's configure Git together:
 2. **Set up user identity**
 3. **Configure essential settings**
 4. **Verify configuration**
-5. **Test with first repository**
 
 ---
 

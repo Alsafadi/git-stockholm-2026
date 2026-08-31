@@ -244,6 +244,16 @@ production:      H --- I
 
 ---
 
+### What About Bitbucket?
+
+Bitbucket doesn't brand its own named flow - teams using it typically pick
+one of the strategies above and enforce it with **branch permissions** and
+**merge checks** instead. Atlassian (Bitbucket's owner) is actually the
+company that popularized the original **Git Flow** model shown a few slides
+back, so that's a common default in Bitbucket shops.
+
+---
+
 ### Feature Branch Workflow
 
 #### 1. Create feature branch:

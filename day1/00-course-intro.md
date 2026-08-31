@@ -30,7 +30,7 @@ _Managing changes to files over time_
 
 ![knight](/resources/img/knight-capital-group.png.webp)
 
-[Case Study -- click here](https://www.henricodolfing.com/2019/06/project-failure-case-study-knight-capital.html)
+[Case Study -- click here](https://www.henricodolfing.ch/en/case-study-4-the-440-million-software-error-at-knight-capital/)
 
 ---
 

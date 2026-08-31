@@ -389,7 +389,7 @@ git tag -v v1.0.0
 
 ---
 
-### Integration with GitHub/GitLab
+### Integration with GitHub/GitLab/Bitbucket
 
 #### GitHub Releases:
 
@@ -404,6 +404,13 @@ git tag -v v1.0.0
 - **CI/CD** integration
 - **Container** registry tags
 - **Deployment** automation
+
+#### Bitbucket Downloads:
+
+- **No auto-generated release object** like GitHub/GitLab - tags don't create a changelog page by themselves
+- **Downloads** tab holds release artifacts (binaries, zips)
+- **Typically populated via Pipelines** - upload build artifacts to Downloads when a tag is pushed
+- **Good fit** if you're already using Bitbucket Pipelines for CI/CD
 
 ---
 

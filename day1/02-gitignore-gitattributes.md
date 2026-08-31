@@ -139,9 +139,10 @@ Visit [gitignore.io](https://gitignore.io)
 - Select your language/framework
 - Download ready-made .gitignore
 
-### Method 3: GitHub templates
+### Method 3: Platform templates
 
-When creating repository, GitHub offers common templates
+When creating a repository, GitHub, GitLab, and Bitbucket **all** offer a
+language dropdown that pre-fills a `.gitignore` for you
 
 ---
 
@@ -398,9 +399,10 @@ git check-attr text filename
 
 ### Great starting points:
 
-- **[gitignore.io](https://gitignore.io)** - Custom ignore files
+- **[gitignore.io](https://gitignore.io)** - Custom ignore files, works regardless of host
 - **[GitHub templates](https://github.com/github/gitignore)** - Community maintained
 - **[GitLab templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/gitignore_templates)** - More options
+- **Bitbucket** - no public templates repo to browse, but the "Create repository" wizard offers the same language dropdown as GitHub/GitLab (backed by gitignore.io under the hood)
 
 ### Popular combinations:
 
