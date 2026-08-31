@@ -115,7 +115,8 @@ By the end of this exercise, you will:
    sed -i 's/"version": "0.1.0"/"version": "1.0.0"/' package.json
 
    # Add release notes
-   cat > CHANGELOG.md << 'EOF'
+   # (unquoted EOF so $(date ...) below actually expands to today's date)
+   cat > CHANGELOG.md << EOF
    # Changelog
 
    ## [1.0.0] - $(date +%Y-%m-%d)
@@ -166,7 +167,7 @@ By the end of this exercise, you will:
    sed -i 's/"version": "1.0.0"/"version": "1.1.0"/' package.json
 
    # Update changelog
-   cat >> CHANGELOG.md << 'EOF'
+   cat >> CHANGELOG.md << EOF
 
    ## [1.1.0] - $(date +%Y-%m-%d)
 

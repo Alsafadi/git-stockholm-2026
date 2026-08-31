@@ -32,18 +32,16 @@
 | 10:15 - 10:45 | Hands-On: Branching & Merging [exercise](/exercises/03-branching-merging-hands-on.md)                                           |
 | 10:45 - 11:00 | Coffee Break                                                                                                                    |
 | 11:00 - 11:40 | Merge Conflicts: Live Resolution Demo (CLI & GUI) [slides](/day2/02-merging-conflicts.md)                                       |
-| 11:40 - 12:00 | Hands-On: Conflict Resolution [exercise](/exercises/04-conflict-resolution-hands-on.md)                                         |
-| 12:00 - 13:00 | Lunch Break                                                                                                                     |
-| 13:00 - 13:30 | Tagging: Annotated & Lightweight Tags [slides](/day2/03-tagging.md)                                                             |
-| 13:30 - 14:00 | Hands-On: Tagging & Release Management [exercise](/exercises/07-tagging-hands-on.md)                                            |
-| 14:00 - 14:45 | Intermediate Commands: checkout, merge, pull, push, stash [slides](/day2/04-intermediate-commands.md)                           |
-| 14:45 - 15:00 | Hands-On: Intermediate Commands [exercise](/exercises/05-intermediate-commands-hands-on.md)                                     |
-| 15:00 - 15:15 | Coffee Break                                                                                                                    |
-| 15:15 - 16:00 | Core Concepts 4: Reset, Revert, Clean [slides](/day2/05-core-concepts-pt4.md)                                                   |
-| 16:00 - 16:30 | Hands-On: Recovery and Undo Scenarios [exercise](/exercises/06-recovery-undo-hands-on.md)                                       |
-| 16:30 - 17:10 | **Advanced:** Handling Pushed Secrets & History Modification [exercise](/exercises/08-secrets-history-modification-hands-on.md) |
-| 17:10 - 17:30 | Q&A, Tips, and Advanced Troubleshooting                                                                                         |
+| 11:40 - 12:10 | Hands-On: Conflict Resolution [exercise](/exercises/04-conflict-resolution-hands-on.md)                                         |
+| 12:10 - 13:10 | Lunch Break                                                                                                                     |
+| 13:10 - 13:40 | Tagging: Annotated & Lightweight Tags [slides](/day2/03-tagging.md)                                                             |
+| 13:40 - 14:05 | Hands-On: Tagging & Release Management [exercise](/exercises/07-tagging-hands-on.md)                                            |
+| 14:05 - 14:50 | Intermediate Commands: checkout, merge, pull, push, stash [slides](/day2/04-intermediate-commands.md)                           |
+| 14:50 - 15:35 | Hands-On: Intermediate Commands [exercise](/exercises/05-intermediate-commands-hands-on.md)                                     |
+| 15:35 - 15:50 | Coffee Break                                                                                                                    |
+| 15:50 - 16:35 | Core Concepts 4: Reset, Revert, Clean [slides](/day2/05-core-concepts-pt4.md)                                                   |
+| 16:35 - 17:20 | Hands-On: Recovery and Undo Scenarios [exercise](/exercises/06-recovery-undo-hands-on.md)                                       |
+| 17:20 - 18:00 | **Advanced:** Handling Pushed Secrets & History Modification [exercise](/exercises/08-secrets-history-modification-hands-on.md) |
+| 18:00 - 18:20 | Q&A, Tips, and Advanced Troubleshooting                                                                                         |
 
 ---
-
-Something new very much

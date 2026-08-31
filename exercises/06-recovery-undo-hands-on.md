@@ -83,41 +83,40 @@ git branch backup-$(date +%Y%m%d-%H%M%S)
 
 3. **Practice different reset modes:**
 
+   Each demo below commits a small throwaway change, then undoes it with a
+   different reset mode. Re-committing between demos brings you back to the
+   same starting point, so the three modes are easy to compare side by side
+   (resetting `HEAD~1` twice in a row would undo two commits instead of
+   demonstrating the same undo twice!).
+
    ```bash
-   # Make some changes to demonstrate reset
+   # --- SOFT RESET demo ---
+   # moves HEAD but keeps staging area and working directory
    echo "// Work in progress" >> app.js
-   echo "console.log('Debug info');" >> app.js
    git add app.js
+   git commit -m "Temporary commit for soft reset demo"
 
-   echo "/* Temporary styles */" >> style.css
-   echo ".debug { color: red; }" >> style.css
-
-   # Current state: staged and unstaged changes
-   git status
-
-   # SOFT RESET - moves HEAD but keeps staging area and working directory
    git reset --soft HEAD~1
-   git status  # Notice: README changes are now staged
-   git log --oneline  # Notice: last commit is gone
+   git status         # Notice: the change is still staged
+   git log --oneline  # Notice: the temporary commit is gone
 
-   # MIXED RESET (default) - moves HEAD and resets staging area
+   git commit -m "Temporary commit for soft reset demo"  # back to baseline
+
+   # --- MIXED RESET demo (default) ---
+   # moves HEAD and unstages the change, but keeps it in the working directory
    git reset HEAD~1
-   git status  # Notice: all changes are unstaged
+   git status         # Notice: the change is now unstaged
    git log --oneline
 
-   # View current file contents
-   cat README.md  # Should be back to simple version
-   cat app.js     # Should have all the changes (committed + working)
+   git add app.js
+   git commit -m "Temporary commit for mixed reset demo"  # back to baseline
 
-   # HARD RESET - moves HEAD, resets staging AND working directory
-   # ⚠️ DANGEROUS: This will lose uncommitted work!
-   git add .
-   git commit -m "Temporary commit for reset demo"
-
-   git reset --hard HEAD~2
-   git status  # Should be clean
+   # --- HARD RESET demo ---
+   # ⚠️ DANGEROUS: moves HEAD and discards the change from staging AND the working directory
+   git reset --hard HEAD~1
+   git status  # Should be clean - the change is completely gone
    git log --oneline
-   cat app.js  # Should be back to simple version
+   cat app.js  # The "Work in progress" line should be gone
    ```
 
 ### Step 2: Git Revert - Safe Public Undo (10 minutes)

@@ -70,7 +70,7 @@ git --version
 Expected output:
 
 ```
-git version 2.47.1.windows.2
+git version 2.51.1.windows.1
 ```
 
 **If this works, Git is installed! 🎉**
@@ -190,7 +190,7 @@ git config --list --show-origin
 
 ---
 
-### SSH Key Setup (Optional but Recommended)
+### SSH Key Setup (macOS/Linux)
 
 For GitHub/GitLab without password prompts:
 
@@ -213,7 +213,7 @@ Copy `~/.ssh/id_ed25519.pub` content to GitHub → Settings → SSH Keys
 
 ---
 
-### SSH Key Setup (Optional but Recommended)
+### SSH Key Setup (Windows/PowerShell)
 
 For GitHub/GitLab without password prompts:
 
@@ -265,6 +265,8 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 ```
 
 ---
+
+### Ways to Interact with Git
 
 #### Command Line
 

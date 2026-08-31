@@ -245,12 +245,22 @@ By the end of this exercise, you will:
 1. **Setup remote repository simulation:**
 
    ```bash
-   # Create a "remote" repository simulation
+   # Create a bare "remote" repository simulation
+   # (bare = no working directory, just like a real GitHub/GitLab repo)
    cd ..
-   git clone intermediate-git-practice origin-repo
+   git clone --bare intermediate-git-practice origin-repo.git
    cd intermediate-git-practice
-   git remote add origin ../origin-repo
+   git remote add origin ../origin-repo.git
+
+   # Create a second clone to simulate a teammate working against the same remote
+   cd ..
+   git clone origin-repo.git teammate-repo
+   cd intermediate-git-practice
    ```
+
+   **Note:** We use a bare repo for `origin` because a normal (non-bare) repo
+   refuses pushes to whichever branch it has checked out. The `teammate-repo`
+   clone stands in for "someone else's machine" pushing changes to the shared remote.
 
 2. **Practice different pull strategies:**
 
@@ -258,11 +268,13 @@ By the end of this exercise, you will:
    # Push current work
    git push -u origin main
 
-   # Simulate remote changes
-   cd ../origin-repo
+   # Simulate a teammate's remote changes
+   cd ../teammate-repo
+   git pull origin main
    echo "// Remote change" >> README.md
    git add README.md
    git commit -m "Remote update to documentation"
+   git push origin main
 
    cd ../intermediate-git-practice
    ```
@@ -292,11 +304,13 @@ By the end of this exercise, you will:
    git add src/app.js
    git commit -m "Local app modification"
 
-   # Simulate remote change
-   cd ../origin-repo
+   # Simulate a teammate's remote change
+   cd ../teammate-repo
+   git pull origin main
    echo "// Remote app change" >> src/app.js
    git add src/app.js
    git commit -m "Remote app modification"
+   git push origin main
 
    cd ../intermediate-git-practice
 

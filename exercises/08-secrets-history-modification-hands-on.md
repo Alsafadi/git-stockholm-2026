@@ -209,7 +209,8 @@ By the end of this exercise, you will:
    echo "In this exercise, we'll focus on step 5..."
 
    # Create incident log
-   cat > SECURITY_INCIDENT.md << 'EOF'
+   # (unquoted EOF so $(date) below actually expands to today's date)
+   cat > SECURITY_INCIDENT.md << EOF
    # Security Incident Report
 
    **Date:** $(date)

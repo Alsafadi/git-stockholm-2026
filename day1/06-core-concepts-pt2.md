@@ -139,16 +139,15 @@ git fetch origin
 
 - **Unlimited** public repositories
 - **Unlimited** private repositories
-- **3 collaborators** max for private repos
-- **2000 Actions minutes/month**
-- **1GB package storage**
-
-#### Pro ($4/month):
-
 - **Unlimited** collaborators
+- **2000 Actions minutes/month**
+- **500MB package storage**
+
+#### Team ($4/user/month):
+
 - **3000 Actions minutes/month**
 - **2GB package storage**
-- **Advanced** code review tools
+- **Advanced** code review tools (required reviewers, protected branches)
 
 ---
 

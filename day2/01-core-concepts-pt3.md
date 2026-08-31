@@ -1,9 +1,7 @@
----
-## mermaid: true
-
 # Core Concepts 3: Branching Strategies & Merge
 
 _Mastering Git's killer feature: cheap and easy branching_
+
 ---
 
 ### Why Branching is Git's Superpower
@@ -379,7 +377,7 @@ git merge -m "Merge user authentication feature" feature-branch
 - **Rewrites** history
 - **Can be dangerous** on shared branches
 
-**We'll cover rebase in detail on Day 3**
+**We'll cover rebase in detail on Day 2**
 
 ---
 
