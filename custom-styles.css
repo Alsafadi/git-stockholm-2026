@@ -1,0 +1,34 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 20px 20px;
+}
+
+.slides {
+  height: 800px !important;
+  max-height: 100vh;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  scale: 0.8 !important;
+  translate: -10% -10% !important;
+  margin: auto;
+  align-items: start !important;
+  text-align: left !important;
+}
+
+.slides table {
+  font-size: xx-large !important;
+}
+.reveal .code-wrapper code {
+  white-space: pre-wrap !important;
+  white-space-collapse: preserve-spaces !important;
+}
+
+.somecode {
+  code {
+    padding: 0 !important;
+  }
+}

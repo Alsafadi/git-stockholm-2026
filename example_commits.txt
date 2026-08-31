@@ -1,0 +1,13 @@
+"Implemented Aggregation feature (ticket-number or something here)" 
+
+"Add function for teamsavailable.ps1 that always shows individual availability at Teams"
+
+"created function 'f_name' to put 'd_name' data into aggregated 't_name'"   
+
+Added function X, which aggregates input data into new table.
+
+"Created {Function_name} - Aggregates {variable} to new table"
+
+"feat(ticket-num): add resource for ec2 and related neworking to main.tf"
+
+"Implementation of aggregation feature to gather data"

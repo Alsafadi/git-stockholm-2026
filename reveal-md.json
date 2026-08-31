@@ -1,0 +1,20 @@
+{
+  "title": "Git Course - from Beginner to Pro",
+  "theme": "white",
+  "highlightTheme": "github",
+  "highlight": {
+    "highlightOnLoad": false
+  },
+  "transition": "slide",
+  "controls": true,
+  "progress": true,
+  "revealOptions": {
+    "scrollable": true
+  },
+  "center": false,
+  "touch": true,
+  "animation": "fade",
+  "loop": false,
+  "rtl": false,
+  "css": "custom-styles.css"
+}
