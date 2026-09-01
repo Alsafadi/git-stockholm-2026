@@ -44,4 +44,7 @@
 | 17:20 - 18:00 | **Advanced:** Handling Pushed Secrets & History Modification [exercise](/exercises/08-secrets-history-modification-hands-on.md) |
 | 18:00 - 18:20 | Q&A, Tips, and Advanced Troubleshooting                                                                                         |
 
----
+
+# feedback
+ W are working on feedback
+ 
